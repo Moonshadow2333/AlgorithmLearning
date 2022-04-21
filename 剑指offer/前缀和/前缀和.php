@@ -15,7 +15,7 @@ class PrefixSum{
 		$ans = 0;
 		for($i=1;$i<count($sum);$i++){
 			for($j=0;$j<$i;$j++){
-				if($sum[$i] - $this->nums[$j] == $this->k){
+				if($sum[$i] - $sum[$j] == $this->k){
 					$ans++;
 				}
 			}
@@ -24,4 +24,5 @@ class PrefixSum{
 	}
 }
 $obj = new PrefixSum([1,6,2,5,4,2],8);
-$obj->subArraySum();
+$re = $obj->subArraySum();
+var_dump($re);
