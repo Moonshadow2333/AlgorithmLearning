@@ -1,0 +1,74 @@
+{
+    "root": {
+        "data": {
+            "id": "ciqxnwaf8ls0",
+            "created": 1648006826191,
+            "text": "MainTopic"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ciqxor0g9880",
+                    "created": 1648006893069,
+                    "text": "topic",
+                    "layout_mind_offset": {
+                        "x": -30,
+                        "y": -152
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ciqxorpcay80",
+                    "created": 1648006894575,
+                    "text": "topic",
+                    "layout_mind_offset": {
+                        "x": -48.99999307096016,
+                        "y": -70.24999737367028
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ciqxpjl274o0",
+                    "created": 1648006955265,
+                    "text": "topic",
+                    "layout_mind_offset": {
+                        "x": -39.99999940395355,
+                        "y": 4.999999925494137
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ciqxpkaz4qg0",
+                    "created": 1648006956832,
+                    "text": "topic",
+                    "layout_mind_offset": {
+                        "x": 398.7499940581621,
+                        "y": -104.9999984353781
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ciqxpl2hpgg0",
+                    "created": 1648006958495,
+                    "text": "topic",
+                    "layout_mind_offset": {
+                        "x": 443.7499933876098,
+                        "y": -38.749999422580004
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
