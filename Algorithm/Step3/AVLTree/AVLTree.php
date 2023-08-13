@@ -176,7 +176,7 @@ class AVLTree
         /**不能急着返回 先使用一个变量存储需要返回的根节点*/
         $retNode = null;
         // if ($key < $node->key) {
-        if (strcmp($key, $node->key) < 0) {    
+        if (strcmp($key, $node->key) < 0) {
             $node->left = $this->implementRemove($node->left, $key);
             $retNode = $node;
         } elseif (strcmp($key, $node->key) > 0) {
