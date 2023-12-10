@@ -171,4 +171,18 @@ class BSTMap
         $node->left = $this->implementRemoveMin($node->left);
         return $node;
     }
+
+    public function keySet()
+    {
+        $keys = [];
+        $this->inOrder($this->root, $keys);
+        return $keys;
+    }
+
+    public function inOrder($node, &$keys)
+    {
+        $this->inOrder($node->left, $keys);
+        $keys[] = $node->key;
+        $this->inOrder($node->right, $keys);
+    }
 }
